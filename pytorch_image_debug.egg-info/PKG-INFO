@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pytorch-image-debug
+Version: 0.1.0
+Summary: pytorch image debug: image preprocess or tensor show as image
+Home-page: UNKNOWN
+Author: taoshen
+Author-email: langangpaibian.com
+License: GPL
+Description: useful torch tensor debug tool
+Keywords: torch tensor debug,image preprocess,image show
+Platform: UNKNOWN
+Requires-Python: >=3
