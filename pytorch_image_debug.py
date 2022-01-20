@@ -47,16 +47,11 @@ else:
 
 init(convert=convert, strip=strip)
 
-# 设置numpy中数据的打印宽度
 np.set_printoptions(threshold=20000, linewidth=20000)  # default 1000 default 75
-# 不以科学计算法显示
 np.set_printoptions(suppress=True)
 
-# 显示的宽度（以字符为单位）
 pd.set_option('display.width', 1000)
-# 显示所有列
 pd.set_option('display.max_columns', None)
-# 显示所有行
 pd.set_option('display.max_rows', None)
 
 cur_pdir = Path(os.path.dirname(__file__))
